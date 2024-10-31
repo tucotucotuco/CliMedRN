@@ -201,20 +201,23 @@ nav {
     }
 }
 
-/* Classe do sombreamento entre seções */
-.section-shadow {
-    position: relative;
-    z-index: 1;
+/* Estilos para o footer */
+.site-footer {
+    background-image: url(assets/36.jpg);
+    background-size: cover;
+    color: #fff;
+    padding: 40px 0;
+    font-size: 0.9rem;
+    display: grid;
+    justify-items: center;
 }
 
-/* Sombra suave */
-.section-shadow::before {
-    content: '';
-    position: absolute;
-    top: -30px; /* Ajuste a posição conforme necessário */
-    left: 0;
-    width: 100%;
-    height: 30px; /* Altura do sombreamento */
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0));
-    z-index: -1;
+.site-footer h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    color: black;
+}
+
+.social-icons {
+    font-size: 2.0rem; /* Tamanho do ícone */
 }
